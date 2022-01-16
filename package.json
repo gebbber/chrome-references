@@ -1,0 +1,19 @@
+{
+  "name": "chrome-references",
+  "version": "0.0.1",
+  "description": "Create a Shortcut to Open References in Chrome",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gebbber/chrome-references.git"
+  },
+  "author": "Gregory Everett Brandon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gebbber/chrome-references/issues"
+  },
+  "homepage": "https://github.com/gebbber/chrome-references#readme"
+}
