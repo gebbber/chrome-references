@@ -1,4 +1,4 @@
-# chrome-references v0.0.1
+# chrome-references v0.0.2
 
 ## Windows 10 (-ish?) Reference Shortcut Creator for Google Chrome.
 
@@ -41,11 +41,26 @@ module.exports = {
 "C:\Program Files\Google\Chrome\Application\chrome.exe" --new-window "https://tailwindcss.com/docs/responsive-design" "https://nerdcave.com/tailwind-cheat-sheet" "https://davidpiesse.github.io/tailwind-md-colours/" "https://fontawesome.com/v5.15/icons?s=regular,solid&m=free"
 ```
 
-4. In Windows Explorer, right-click `references.bat` and select 'Copy'. Go to the desired location and right-click and choose 'Paste Shortcut'.
+The BAT file can be run to open a new Chrome window with the desired tabs.
 
-5. Go to the desired location, and right-click and choose 'Paste shortcut'.
+## Adding a Desktop Shortcut
 
-6. Rename the shortcut file, and choose an icon.
-  - BAT files don't have associated icons, so you will need to pull one from another file. By default I would suggest locating `chrome.exe` and using one of its icons. Luckily if you rebuild the BAT file with new documents, you won't have to set the shortcut up again.
-  
-Double-click the icon to open a new Chrome window with all your desired reference material. If you add to the `references.conf` file and run `npm run build` again and have followed the above, you won't need to adjust the shortcut link.
+If you would like to add a shortcut on your desktop, the following only needs to be done once, and then the BAT file can be updated and rebuilt with new reference materials.
+
+Note: Make sure this package (or at least the generated BAT file) has a permanent home on your file system before creating the shortcut.
+
+1. In Windows Explorer, locate `references.bat`. Right-click and select 'Copy'.
+
+2. Go to the desired location (e.g., your Desktop) and right-click and choose 'Paste Shortcut'.
+
+3. Rename the shortcut link as desired.
+
+4. If desired, change the icon. Right-click the shortcut link and choose 'Properties', followed by 'Change Icon...'.
+
+5. You'll likely get a warning that the file has not stored any icons. Click Ok.
+
+6. Choose a system icon, or click 'Browse' and locate `chrome.exe` and borrow one of its icons. (Again, you only need to do this the first time, and updates to the BAT file won't affect the desktop shortcut.)
+
+Double-click the icon to open a new Chrome window with all your desired reference material. 
+
+In order to update your references, or add more, etc., add to the `references.conf` file and run `npm run build` again.
