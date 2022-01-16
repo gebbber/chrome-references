@@ -6,7 +6,7 @@ Creates a BAT file to open a specific set of tabs in a new Chrome window.
 
 Allows you to quickly open all of your reference material and have the tabs in the same order when you start your work.
 
-This package is not associated with Google or Google Chrome in any official capacity, or any of the websites used in the below example. Please visit those websites at your own risk.
+Neither this package nor its author is associated with Google or Google Chrome in any official capacity, or any of the websites used in the below example. Please visit those websites at your own risk.
 
 ---
 
