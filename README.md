@@ -1,4 +1,4 @@
-# chrome-references v0.0.3
+# chrome-references v0.0.4
 
 ## Windows 10 (-ish?) Reference Shortcut Creator for Google Chrome.
 
