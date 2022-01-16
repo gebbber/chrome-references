@@ -1,6 +1,6 @@
 {
   "name": "chrome-references",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create a Shortcut to Open References in Chrome",
   "main": "build.js",
   "scripts": {
