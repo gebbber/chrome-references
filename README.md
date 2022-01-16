@@ -1,4 +1,4 @@
-# chrome-references v0.0.2
+# chrome-references v0.0.3
 
 ## Windows 10 (-ish?) Reference Shortcut Creator for Google Chrome.
 
@@ -30,7 +30,7 @@ https://fontawesome.com/v5.15/icons?s=regular,solid&m=free
 module.exports = {
     chrome: "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
     batFile: "./references.bat",
-    listFile: "./references.txt",
+    listFile: "./references.conf",
     newWindow: true
 }
 ```
