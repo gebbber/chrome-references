@@ -1,5 +1,5 @@
 module.exports = {
-    chrome: "C:\\Program Files\\Google\\Chrome\\Application\\chromeeee.exe",
+    chrome: "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
     batFile: "./references.bat",
     listFile: "./references.conf",
     newWindow: true
